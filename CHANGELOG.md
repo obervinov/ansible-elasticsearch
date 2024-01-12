@@ -1,5 +1,14 @@
 # Changelog
 
+## 7.17.1 - 2024-01-12
+### What's Changed
+**Full Changelog**: https://github.com/obervinov/ansible-elasticsearch/compare/...7.17.1 by @obervinov
+#### 🐛 Bug Fixes
+* add support `ansible-core >=2.16`
+#### 💥 Breaking Changes
+* replace all deprecated functions `ansible.builtin.include` -> `ansible.builtin.import_tasks`
+
+
 ## 7.17.0
 
 * 7.17.0 as default version.
